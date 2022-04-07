@@ -16,37 +16,6 @@ It is believed that:
 + The saucepan is a rectangle.
 + Time starts from second number 1.
 
-
-module.exports = function(mapString: string): number 
-{
-    // Your code
-
-    return timeInSec; // Time in seconds for all letters to leak out
-}
-Input Format
-A string with a picture of the soup in the initial state.
-
-+----------------0---------------+
-|                                |
-|                                |
-|          Y        D            |
-|     A                          |
-|              E                 |
-|           N                    |
-|  Y                             1
-3        Y    D                  |
-|         A              X       |
-|                                |
-+----------------2---------------+
-
-
-Output Format
-Time in seconds for all letters to leak out:
-
-11
-
-
-
 -----------------------------------------------------------------------RU-----------------------------------------------------------------------
 A. Яндекс.Суп
 
@@ -65,31 +34,3 @@ A. Яндекс.Суп
 + Дырок на одной стороне может быть несколько, но у всех уникальные координаты.
 + Кастрюля — это прямоугольник.
 + Время начинается с секунды номер 1.
-
-
-module.exports = function (mapString: string): number {
-    // Ваш код
-
-    return timeInSec; // Время в секундах, за которое все буквы вытекли
-}
-Формат ввода
-Строка с картинкой супа в начальном состоянии.
-
-+----------------0---------------+
-|                                |
-|                                |
-|          Y        D            |
-|     A                          |
-|              E                 |
-|           N                    |
-|  Y                             1
-3        Y    D                  |
-|         A              X       |
-|                                |
-+----------------2---------------+
-
-
-Формат вывода
-Время в секундах, за которое все буквы вытекли:
-
-11
