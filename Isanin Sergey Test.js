@@ -39,25 +39,25 @@ for (let y = 0; y!==12; y++)  //высота массива y=11
    }
 }
 
-console.log(`1. past`,past);
-console.log(`2. hole`,hole);
-let min = 10000;
-let max = -1;
+// console.log(`1. past`,past);
+// console.log(`2. hole`,hole);
+// let min = 10000;
+// let max = -1;
 
-for (let j = 0; j < 10; j++)
-{
-   console.log(`Буква`,past[j].a);
-   for (let i = 0; i < 4; i++)
-   {
-      n = (Math.abs(past[j].x-hole[i].x)+Math.abs(past[j].y-hole[i].y));
+// // for (let j = 0; j < 10; j++)
+// // {
+// //    console.log(`Буква`,past[j].a);
+// //    for (let i = 0; i < 4; i++)
+// //    {
+// //       // n = (Math.abs(past[j].x-hole[i].x)+Math.abs(past[j].y-hole[i].y));
 
-      console.log(hole[i].a,`= ABS (`,past[j].x,`-`,hole[i].x,`) + ABS(`,past[j].y,`-`,hole[i].y,`) =`,n);
-      /*if (max < n) {max = n}
-      console.log(`4. if min`,max,`<`,n);*/
-   };/*
-   if (min > max) {min = max}
-   console.log(`5. if max`,max,`>`,max);
-   console.log(`max=`,max,`min=`,min);*/
-};
+// //       // console.log(hole[i].a,`= ABS (`,past[j].x,`-`,hole[i].x,`) + ABS(`,past[j].y,`-`,hole[i].y,`) =`,n);
+// //       /*if (max < n) {max = n}
+// //       console.log(`4. if min`,max,`<`,n);*/
+// //    };/*
+//    if (min > max) {min = max}
+//    console.log(`5. if max`,max,`>`,max);
+//    console.log(`max=`,max,`min=`,min);*/
+// };
 
-console.log(`6. max`,max);
+// console.log(`6. max`,max);
